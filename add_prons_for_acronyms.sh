@@ -27,7 +27,5 @@ for list in `cat $oov`; do
   echo "$list $pron_seq" >> $outlex
 done
 
-echo "Working in $dir"
-echo""
 rm -r $dir
 
